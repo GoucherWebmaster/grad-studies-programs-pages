@@ -1,0 +1,44 @@
+<section id="{{program.acronym}}" class="program {{program.acronym}} {{ 'hidden' if program.hidden == "true"}}">
+    <div class="program-info">
+        <div class="program-info__image">
+            <img width="900" height="424" src="/assets/images/{{ program.image }}" alt="">
+        </div>
+        <div class="intro">
+            <h2 class="heading-2 text-blue">{{ program.name }}</h2>
+            <p class="intro-text"> {{ program.blurb }} </p>
+        </div>
+
+        {%- if program.stats.length -%}
+        <div class="program-info__stats">
+            <div class="stat">
+                <p>
+                    <span class="number">{{ program.stats[0].number }}</span> <br aria-hidden="true">
+                    <span class="text">{{ program.stats[0].text }}</span>
+                </p>
+            </div>
+            <div class="stat">
+                <p>
+                    <span class="number">{{ program.stats[1].number }}</span> <br aria-hidden="true">
+                    <span class="text">{{ program.stats[1].text }}</span>
+                </p>
+            </div>
+            <div class="stat">
+                <p>
+                    <span class="number">{{ program.stats[2].number }}</span> <br aria-hidden="true">
+                    <span class="text">{{ program.stats[2].text }}</span>
+                </p>
+            </div>
+        </div>
+        {%- endif -%}
+    </div>
+    
+    <div class="program-quote">
+        <img class="program-quote__icon" src="/assets/images/quotation-mark.svg" width="70" height="46" alt="" aria-hidden="true">
+        <p class="program-quote__text fs-md text-white">{{ program.testimonial.quote }}</p>
+        <div>
+            <p class="ff-ndt fs-xsm text-white">{{ program.testimonial.name }}</p>
+            <p class="fs-xsm text-white">{{ program.testimonial.title }}</p>
+            <p class="fs-xsm text-white">{{ program.testimonial.credential }}</p>
+        </div>
+    </div>
+</section>

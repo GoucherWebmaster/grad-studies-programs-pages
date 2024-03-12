@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/assets/art-deco-1.png">
+        <link rel="stylesheet" href="/style.css">
+        <script type="module" src="/js/main.js"></script>
+
+        <!-- Slate Embedded Form 1 Script -->
+        <script async="async" src="https://gradprograms.goucher.edu/register/?id=8fa752da-9cba-48a8-831d-60f765d05fe1&amp;output=embed&amp;div=form_8fa752da-9cba-48a8-831d-60f765d05fe1">/**/</script> 
+        <!-- Slate Embedded Form 2 Script -->
+        <script async="async" src="https://gradprograms.goucher.edu/register/?id=0b3ac651-bc12-4873-a380-d2e1463a6838&amp;output=embed&amp;div=form_0b3ac651-bc12-4873-a380-d2e1463a6838">/**/</script>
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});
+                var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),
+                    dl=l!='dataLayer'?'&l='+l:'';
+                j.async=true;
+                j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+                f.parentNode.insertBefore(j,f);})
+            (window,document,'script','dataLayer','GTM-P7WRTVT');
+        </script>
+        <!-- End Google Tag Manager -->
+        
+        <title>{{ title }}</title>
+
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7WRTVT" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+
+        {% include 'header.njk' %}
+        
+        <main>
+            {{ content | safe }}
+        </main>
+        
+        {% include 'footer.njk' %}
+        
+    </body>
+</html>

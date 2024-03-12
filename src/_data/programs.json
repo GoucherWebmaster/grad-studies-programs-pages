@@ -1,0 +1,213 @@
+[
+    {
+        "name": "M.A. in Arts Administration", 
+        "hidden": "",
+        "acronym": "maaa",
+        "image": "maaa.webp",
+        "blurb": "The arts and cultural field is changing rapidly. Be part of leading those changes with a master's degree in arts administration. Our program is practical and professional. You will receive personal attention from our faculty of national arts leaders. With our flexible format, you can continue to work full time and immediately apply what you learn. An annual, one-week residency builds a powerful network and strengthens your connections to mentors, faculty, and peers.", 
+        "testimonial": {
+            "quote": "I received far more than an advanced degree from Goucher. I got an army, a cohort of colleagues, and a chorus of mentors whose voices still guide me 12 years later. I had the ongoing resources, support, and tools that I needed. I had a secret weapon: an M.A. in Arts Administration from Goucher.", 
+            "name": "Todd Eric Hawkins", 
+            "title": "Executive Director, Irving Arts Center", 
+            "credential": "M.A. Arts Administration, 2010"
+        },
+        "stats": [
+            {
+                "number": "2:1", 
+                "text": "student-to-faculty ratio"
+            }, 
+            {
+                "number": "2-3", 
+                "text": "years to graduate, flexible"
+            },
+            {
+                "number": "95%", 
+                "text": "employed in the arts"
+            }
+        ]
+    }, 
+    {
+        "name": "M.A. Applied Policy Analysis", 
+        "hidden": "true",
+        "acronym": "maapa",
+        "image": "maapa.webp",
+        "blurb": "Ready to be the go-to expert in shaping tomorrow's policies? With our M.A. in Applied Policy Analysis, you won't just crunch numbers⏤you'll tell compelling stories that drive change. Imagine welding a data-analysis toolkit so versatile you can tailor solutions for anything from healthcare to environmental challenges. Here, you're not just learning⏤you're specializing, gaining the know-how to engage any audience. Get ready to be the linchpin organizations won't be able to do without.", 
+        "testimonial": {
+            "quote": "In a world increasingly driven by data, professionals equipped to navigate this landscape are in high demand. Our program delivers a versatile data analysis toolkit, training you to analyze, visualize, and communicate real-world issues effectively.", 
+            "name": "Dr. Asha Shepard", 
+            "title": "Director of M.A. Applied Policy Analysis"
+        },
+        "stats": []
+    }, 
+    {
+        "name": "M.A. Cultural Sustainability", 
+        "hidden": "true",
+        "acronym": "macs",
+        "image": "macs.webp",
+        "blurb": "Sustaining the living culture of communities worldwide is one of today’s most pressing needs. Our M.A. in Cultural Sustainability helps you advance your professional goals while learning to collaborate across sectors to safeguard traditions, ensure social equity, and imagine new futures. The program’s flexibility allows you to learn from anywhere and apply your knowledge immediately. In addition, connecting with scholars, experienced practitioners, and peers during an annual weeklong on-campus residency will inspire and empower you to advance cultural equity in your chosen communities.", 
+        "testimonial": {
+            "quote": "I love the Cultural Sustainability program because in every class that I’ve taken so far I’ve been able to tie it to the needs of my community.", 
+            "name": "Candy Testa", 
+            "credential": "M.A. Cultural Sustainability, 2018"
+        },
+        "stats": [
+            {
+                "number": "42", 
+                "text": "program credit hours"
+            }, 
+            {
+                "number": "2", 
+                "text": "years to graduation"
+            },
+            {
+                "number": "87%", 
+                "text": "employed in related careers"
+            }
+        ]
+    },
+    {
+        "name": "M.A. Digital Communication", 
+        "hidden": "true",
+        "acronym": "madc",
+        "image": "madc.webp",
+        "blurb": "What we say, how we say it, and where we say it matters now more than ever. The evolving state of digital communication requires savvy specialists who understand its power and potential. Designed for working professionals, our M.A.D.C. degree balances strategy with implementation, making you a valuable asset in any work environment or industry. By focusing on all aspects of digital communication such as audience research, data analytics, and effective engagement strategies, you’ll learn to evaluate the impact of responsible, ethical use of digital communication.", 
+        "testimonial": {
+            "quote": "We live in a world of constant connection and digital interaction. In today’s job market, mastering digital communication is no longer optional⏤it’s essential.", 
+            "name": "Dr. Siobahn Stiles", 
+            "title": "Director of M.A. Digital Communication"
+        },
+        "stats": []
+    },
+    {
+        "name": "M.A. Environmental Sustainability & Management", 
+        "hidden": "true",
+        "acronym": "maes",
+        "image": "maes.webp",
+        "blurb": "As climate change and environmental challenges grow, there is a desperate need for individuals with the knowledge and confidence to effectively address environmental threats with thoughtful strategies. The M.A.E.S. degree from Goucher will give you the knowledge, skills and experience you need to improve the health of natural environments and create a more sustainable future. The hybrid learning model provides students the flexibility to complete the program 100% online or to take a combination of online and in-person courses. The program’s optional study-abroad offers a hands-on, global experience with the positive communal aspect of in-person learning. Now is the time to make a difference.", 
+        "testimonial": {
+            "quote": "What I love about my classes is that they are very realistic. We talk about real-world problems and how we can fix them.", 
+            "name": "Julia Erbe", 
+            "credential": "M.A. Environmental Studies"
+        },
+        "stats": [
+            {
+                "number": "36", 
+                "text": "program credit hours"
+            }, 
+            {
+                "number": "2", 
+                "text": "years to graduation"
+            },
+            {
+                "number": "100%", 
+                "text": "online or hybrid options"
+            }
+        ]
+    },
+    {
+        "name": "M.A. Historic Preservation", 
+        "hidden": "true",
+        "acronym": "mahp",
+        "image": "mahp.webp",
+        "blurb": "Through our innovative online and in-person Historic Preservation program, you’ll be able to keep your day job while you build the skills and knowledge to navigate the process of preserving buildings and landmarks. Faculty practitioners will guide you through a curriculum that explores the powerful impact of local, grassroots preservation efforts and the logistical intricacies of state and federal bureaucracy. In addition, you’ll engage in an annual, weeklong on-campus residency designed to connect you with faculty and peers and inspire you to do the purposeful work of historic preservation.", 
+        "testimonial": {
+            "quote": "I’ve learned so much about how preservation impacts everything around us. Goucher allows you to see how diverse preservation really is. It’s [more than] planning. It’s also law, documentation, local economics, built environment, federal government, and social justice issues. I’ve expanded my view a lot.", 
+            "name": "Liz Cohan", 
+            "credential": "M.A. Historic Preservation, 2023"
+        },
+        "stats": [
+            {
+                "number": "38", 
+                "text": "program credit hours"
+            }, 
+            {
+                "number": "2.5-3", 
+                "text": "years to graduation"
+            },
+            {
+                "number": "89%", 
+                "text": "employed in preservation"
+            }
+        ]
+    },
+    {
+        "name": "M.A. in Teaching", 
+        "hidden": "true",
+        "acronym": "mat",
+        "image": "mat.webp",
+        "blurb": "Jumpstart your teaching career with this licensure program designed for those who wish to enter the teaching profession but lack a background in education. Our curriculum carefully balances theory and practice, providing students with the knowledge and skills needed for teaching in general and special education settings. Gain classroom experience through a yearlong internship at a professional development school or supervised teaching experience guided by Goucher faculty. Learn the skills you need in the classroom, such as planning content, managing student behavior, accommodating student needs, and encouraging problem-solving through self-reflection and student engagement.", 
+        "testimonial": {
+            "quote": "I know that there are many, many students out there—young girls and boys who are struggling—and I just want to give back.", 
+            "name": "Jillian McKay", 
+            "credential": "M.A. in Teaching, 2017"
+        },
+        "stats": [
+            {
+                "number": "2 & 3", 
+                "text": "year formats available"
+            }, 
+            {
+                "number": "MSDE", 
+                "text": "recognized certification"
+            },
+            {
+                "number": "TEACH", 
+                "text": "grant eligible"
+            }
+        ]
+    },
+    {
+        "name": "Master of Education", 
+        "hidden": "true",
+        "acronym": "med",
+        "image": "med.webp",
+        "blurb": "The Master of Education degree offered by Goucher College aims to answer the urgent needs of today's teachers. With nine areas of specialization, the M.Ed. Program offers a 21st-century curriculum responsive to the challenges that educators and school administrators face every day. Goucher’s M.Ed. Program provides specialized training for teachers who work both in and outside the classroom, including special educators and school administrators. Students can pursue a Master of Education degree or add to their credentials with a professional development certificate. With Goucher’s flexible online format, you will earn a graduate degree or a professional MSDE-recognized certification/endorsement in the format that fits your learning style, your life, and your goals.", 
+        "testimonial": {
+            "quote": "Goucher understands the practicality and the reality of teaching.", 
+            "name": "Kenya Beard", 
+            "credential": "Master of Education, 2014"
+        },
+        "stats": [
+            {
+                "number": "2 & 3", 
+                "text": "year formats available"
+            }, 
+            {
+                "number": "9", 
+                "text": "areas of specialization"
+            },
+            {
+                "number": "MSDE", 
+                "text": "recognized certification"
+            }
+        ]
+    },
+    {
+        "name": "M.F.A. Nonfiction", 
+        "hidden": "true",
+        "acronym": "mfan",
+        "image": "mfan.webp",
+        "blurb": "Write your story and make a difference with Goucher’s M.F.A. in Nonfiction. Join the country’s first and most respected low-residency program, and become an accomplished author, teacher, and thinker. Our two-year flexible format craft-intensive course offers expert mentorship, publishing opportunities, and a supportive community. Our mentors and graduates are award-winning authors and professionals in the nonfiction field. Learn from the industry’s best during our immersive weeklong residencies in Baltimore and New York City.", 
+        "testimonial": {
+            "quote": "I wanted a degree that would not only help improve my writing skills but also advance my freelance career.", 
+            "name": "Stefan Slater", 
+            "credential": "M.F.A. Nonfiction, 2016"
+        },
+        "stats": [
+            {
+                "number": "49", 
+                "text": "program credit hours"
+            }, 
+            {
+                "number": "2", 
+                "text": "years to graduation"
+            },
+            {
+                "number": "200", 
+                "text": "books published by grads"
+            }
+        ]
+    } 
+
+
+]
