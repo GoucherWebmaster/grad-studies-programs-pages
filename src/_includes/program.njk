@@ -1,5 +1,5 @@
 <section id="{{program.acronym}}" class="program {{program.acronym}} {{ 'hidden' if program.hidden == "true"}}">
-    <div class="program-info">
+    <div class="main-column-wide">
         <div class="program-info__image">
             <img width="900" height="424" src="/assets/images/{{ program.image }}" alt="">
         </div>
@@ -32,7 +32,7 @@
         {%- endif -%}
     </div>
     
-    <div class="program-quote">
+    <div class="main-column-wide program-quote">
         <img class="program-quote__icon" src="/assets/images/quotation-mark.svg" width="70" height="46" alt="" aria-hidden="true">
         <p class="program-quote__text fs-md text-white">{{ program.testimonial.quote }}</p>
         <div>
