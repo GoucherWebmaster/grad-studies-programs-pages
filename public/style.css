@@ -274,6 +274,14 @@ input, select {
     background-color: var(--clr-white);
 }
 
+select {
+    appearance: none;
+    background-image: url('/assets/images/icon-select-arrow.svg');
+    background-position: right 1rem center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+}
+
 input:focus-visible, 
 select:focus-visible ,
 button.default.form_button_submit:focus-visible {
