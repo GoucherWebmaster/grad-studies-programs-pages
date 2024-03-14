@@ -269,6 +269,7 @@ input, label, select {
     padding: .5em 1em;
     width: 100%;
     color: var(--clr-black);
+    -webkit-text-fill-color: var(--clr-black);
 }
 
 input, select {
