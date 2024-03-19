@@ -106,7 +106,10 @@
 .ml-xlrg {margin-inline-start: 6rem;}
 
 /* margin bottom */
-.mb-md {margin-block-end: 3rem;}
+.mb-md {
+    margin-block-end: 3rem;
+    -webkit-margin-after: 3rem;
+}
 
 /* text color */
 .text-white {color: var(--clr-white);}
@@ -130,17 +133,20 @@
     font-family: var(--ff-heading);
     font-size: var(--fs-600);
     margin-block-end: 1.5rem;
+    -webkit-margin-after: 1.5rem;
 }
 
 .heading-3 {
     font-family: var(--ff-heading);
     font-size: var(--fs-500);
     margin-block-end: .5rem;
+    -webkit-margin-after: .5rem;
 }
 
 .intro-text {
     font-size: var(--fs-400);
     margin-block-end: 3rem;
+    -webkit-margin-after: 3rem;
 }
 
 /* Reset */
@@ -228,6 +234,8 @@ input, button, select {
 /* Layout Styles */
 .main-column-narrow {
     padding-block: 5rem;
+    -webkit-padding-before: 5rem;
+    -webkit-padding-after: 5rem;
     text-align: center;
     display: grid;
     grid-template-columns: 
@@ -242,6 +250,8 @@ input, button, select {
 
 .main-column-wide {
     padding-block: 5rem;
+    -webkit-padding-before: 5rem;
+    -webkit-padding-after: 5rem;
     display: grid;
     grid-template-columns: 
         minmax(1rem, 1fr) 
@@ -307,6 +317,7 @@ button.default.form_button_submit {
     color: var(--clr-white);
     background-color: var(--clr-blue);
     margin-block-start: 2rem;
+    -webkit-margin-before: 2rem;
 }
 
 button.default.form_button_submit:hover, 
@@ -320,14 +331,21 @@ button.default.form_button_submit:focus-visible {
 .hero-bg {
     background-image: url('assets/images/header-bg-mobile.webp');
     background-size: cover;
-    padding: 2rem 0 16rem;
     max-width: 1440px;
-    margin-inline: auto;
+    padding: 2rem 0 16rem;
+    -webkit-padding-before: 2rem;
+    -webkit-padding-after: 16rem;
+    /* margin-inline: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .title-container {
     max-width: 1080px;
-    margin-inline: auto;
+    /* margin-inline: auto; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero .title,
@@ -341,12 +359,15 @@ button.default.form_button_submit:focus-visible {
 .intro,
 .program-quote__text {
     max-width: 768px;
-    margin-inline: auto;
+    /* margin-inline: auto; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*  Program Selection section */
 .program-selection {
     padding-block-end: 8rem;
+    -webkit-padding-after: 8rem;
 } 
 
 .program-info__image {
@@ -380,11 +401,13 @@ button.default.form_button_submit:focus-visible {
 
 .program-quote p {
     margin-block-end: 0;
+    -webkit-margin-after: 0;
 }
 
 .program-quote__icon {
     max-width: 70px;
     margin-block-start: -10rem;
+    -webkit-margin-before: -10rem;
 }
 
 
@@ -408,6 +431,7 @@ button.default.form_button_submit:focus-visible {
     width: 100%;
     height: 96px;
     margin-block-end: 2rem;
+    -webkit-margin-after: 2rem;
 }
 
 
@@ -421,6 +445,7 @@ button.default.form_button_submit:focus-visible {
         minmax(0, 50rem) 
         minmax(1rem, 1fr);
     padding-block-start: 4rem;
+    -webkit-padding-before: 4rem;
 }
 
 .purpose > * {
@@ -445,6 +470,7 @@ button.default.form_button_submit:focus-visible {
 
 .programs ul li {
     margin-block-start: 1rem;
+    -webkit-margin-before: 1rem;
     text-align: left;
 }
 
@@ -491,6 +517,7 @@ button.default.form_button_submit:focus-visible {
     font-size: var(--fs-400);
     text-align: left;
     padding-block-start: 1rem;
+    -webkit-padding-before: 1rem;
 }
 
 .faq-separator {
@@ -598,11 +625,13 @@ footer p {
 }
 
 .footer-bg {
-    background-image: url('assets/images/footer-bg.webp');
+    background-image: url('/assets/images/footer-bg.png');
     background-position: center center;
     background-size: cover;
     max-width: 1440px;
-    margin-inline: auto;
+    /* margin-inline: auto; */
+    margin-left: auto;
+    margin-right: auto;
     padding: 7rem 1rem;
     display: grid;
     justify-content: center;
@@ -697,6 +726,10 @@ footer p {
         background-image: url('assets/images/header-bg-desktop.jpg');
         background-position: 64% 0%;
         padding: 2rem 0;
+        -webkit-padding-after: 2rem;
+        -webkit-padding-before: 2rem;
+        -webkit-padding-end: 0;
+        -webkit-padding-start: 0;
     }
 
     .hero .title {
@@ -706,6 +739,11 @@ footer p {
     .title-container:not(.purpose .title-container) {
         padding-block: 4.5rem;
         padding-inline: clamp(2rem, 3vw, 3rem);
+        -webkit-padding-after: 4.5rem;
+        -webkit-padding-before: 4.5rem;
+        -webkit-padding-end: 2rem;
+        -webkit-padding-start: 2rem;
+       
     }
     
     .detail-container {
@@ -714,6 +752,9 @@ footer p {
     
     .purpose {
         padding-block: 0;
+        -webkit-padding-before: 0;
+        -webkit-padding-after: 0;
+
     }
 
     .purpose .title-container {
@@ -725,6 +766,7 @@ footer p {
         grid-column: 2 / 3;
         grid-row: 1;
         margin-block-start: -3rem;
+        -webkit-margin-before: -3rem;
     }
     
     .programs, 
@@ -746,9 +788,12 @@ footer p {
     
     .purpose .title-container {
         padding-block: 0;
+        -webkit-padding-before: 0;
+        -webkit-padding-after: 0;
     }
     
     .purpose-image {
         margin-block-start: -8rem;
+        -webkit-margin-before: -8rem;
     }
 }

@@ -1,13 +1,10 @@
 document.addEventListener("DOMContentLoaded", ready())
 
-
 function ready () {
     const maaa = document.querySelector('#maaa') 
     const select = document.getElementById('program-select')
     const programs = document.querySelectorAll('.program')
     const headings = document.querySelectorAll('.faq-question')
-
-    console.log(select)
 
     headings.forEach((heading) => {
         let btn = heading.querySelector('button')
@@ -32,15 +29,15 @@ function ready () {
             }
         })
     })
-
-    function getURLPath () {
-
-        const url = window.location.href;
     
+    function getURLPath () {
+        
+        const url = window.location.href;
+        
         if (url) {
             let urlObj = new URL(url)
             let path = urlObj.pathname.split('/')[1]
-    
+            
             programs.forEach(program => {
                 if ( path === "") {
                     maaa.classList.remove('hidden')
@@ -51,13 +48,18 @@ function ready () {
                     program.classList.add('hidden')
                 }
             })
-    
+            
         } else {
             console.log("Invalid URL")
         }   
     }
+    
     getURLPath()
+    
 }
+
+
+
 
 
 

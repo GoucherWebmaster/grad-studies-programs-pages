@@ -1,7 +1,11 @@
 <section id="{{program.acronym}}" class="program {{program.acronym}} {{ 'hidden' if program.hidden == "true"}}">
     <div class="main-column-wide">
         <div class="program-info__image">
-            <img width="900" height="424" src="/assets/images/{{ program.image }}" alt="">
+            <picture>
+                <source srcset="/assets/images/{{ program.image }}.webp" type="image/webp"/>
+                <source srcset="/assets/images/{{ program.image }}.jpg" type="image/jpeg"/>
+                <img width="900" height="424" src="/assets/images/{{ program.image }}.jpg" alt="">
+            </picture>
         </div>
         <div class="intro">
             <h2 class="heading-2 text-blue">{{ program.name }}</h2>
