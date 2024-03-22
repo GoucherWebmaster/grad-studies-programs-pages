@@ -14,24 +14,16 @@
 
         {%- if program.stats.length -%}
         <div class="program-info__stats">
-            <div class="stat">
-                <p>
-                    <span class="number">{{ program.stats[0].number }}</span> <br aria-hidden="true">
-                    <span class="text">{{ program.stats[0].text }}</span>
-                </p>
-            </div>
-            <div class="stat">
-                <p>
-                    <span class="number">{{ program.stats[1].number }}</span> <br aria-hidden="true">
-                    <span class="text">{{ program.stats[1].text }}</span>
-                </p>
-            </div>
-            <div class="stat">
-                <p>
-                    <span class="number">{{ program.stats[2].number }}</span> <br aria-hidden="true">
-                    <span class="text">{{ program.stats[2].text }}</span>
-                </p>
-            </div>
+
+            {%- for stat in program.stats -%}
+                <div class="stat">
+                    <p>
+                        <span class="number">{{ stat.number }}</span> <br aria-hidden="true">
+                        <span class="text">{{ stat.text }}</span>
+                    </p>
+                </div>
+            {%- endfor -%}
+
         </div>
         {%- endif -%}
     </div>
@@ -41,8 +33,12 @@
         <p class="program-quote__text fs-md text-white">{{ program.testimonial.quote }}</p>
         <div>
             <p class="ff-ndt fs-xsm text-white">{{ program.testimonial.name }}</p>
+            {%- if program.testimonial.title -%}
             <p class="fs-xsm text-white">{{ program.testimonial.title }}</p>
+            {%- endif -%}
+            {%- if program.testimonial.credential -%}
             <p class="fs-xsm text-white">{{ program.testimonial.credential }}</p>
+            {%- endif -%}
         </div>
     </div>
 </section>
