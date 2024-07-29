@@ -1,0 +1,47 @@
+[
+    {
+        "name": "M.A. in Arts Administration", 
+        "acronym": "maaa",
+        "image": "maaa"
+    }, 
+    {
+        "name": "M.A. Applied Policy Analysis", 
+        "acronym": "maapa",
+        "image": "maapa"
+    }, 
+    {
+        "name": "M.A. Cultural Sustainability", 
+        "acronym": "macs",
+        "image": "macs"
+    },
+    {
+        "name": "M.A. Digital Communication", 
+        "acronym": "madc",
+        "image": "madc"
+    },
+    {
+        "name": "M.A. Environmental Sustainability & Management", 
+        "acronym": "maes",
+        "image": "maes"
+    },
+    {
+        "name": "M.A. Historic Preservation", 
+        "acronym": "mahp",
+        "image": "mahp"
+    },
+    {
+        "name": "M.A. in Teaching", 
+        "acronym": "mat",
+        "image": "mat"
+    },
+    {
+        "name": "Master of Education", 
+        "acronym": "med",
+        "image": "med"
+    },
+    {
+        "name": "M.F.A. Nonfiction", 
+        "acronym": "mfan",
+        "image": "mfan"
+    } 
+]
