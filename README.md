@@ -26,20 +26,47 @@ Once the project is initialized, start the dev server by running:
 
 Open http://localhost:8080/ to view it in the browser.
 
-## View this page live:
+## View main pages live:
 
-[Homepage](https://grad-studies-programs-pages-p1fjt.kinsta.page)
-[MAAA](https://grad-studies-programs-pages-p1fjt.kinsta.page/maaa)
-[MAAPA](https://grad-studies-programs-pages-p1fjt.kinsta.page/maapa)
-[MACS](https://grad-studies-programs-pages-p1fjt.kinsta.page/macs)
-[MADC](https://grad-studies-programs-pages-p1fjt.kinsta.page/madc)
-[MAES](https://grad-studies-programs-pages-p1fjt.kinsta.page/maes)
-[MAHP](https://grad-studies-programs-pages-p1fjt.kinsta.page/mahp)
-[MAT](https://grad-studies-programs-pages-p1fjt.kinsta.page/mat)
-[MED](https://grad-studies-programs-pages-p1fjt.kinsta.page/med)
-[MFAN](https://grad-studies-programs-pages-p1fjt.kinsta.page/mfan)
+-[Homepage](https://gradstudies.goucher.edu)
+-[MAAA](https://gradstudies.goucher.edu/maaa)
+-[MAAPA](https://gradstudies.goucher.edu/maapa)
+-[MACS](https://gradstudies.goucher.edu/macs)
+-[MADC](https://gradstudies.goucher.edu/madc)
+-[MAES](https://gradstudies.goucher.edu/maes)
+-[MAHP](https://gradstudies.goucher.edu/mahp)
+-[MAT](https://gradstudies.goucher.edu/mat)
+-[MED](https://gradstudies.goucher.edu/med)
+-[MFAN](https://gradstudies.goucher.edu/mfan)
+
+## View Thank You pages live:
+
+-[MAAA](https://gradstudies.goucher.edu/thank-you/maaa)
+-[MAAPA](https://gradstudies.goucher.edu/thank-you/maapa)
+-[MACS](https://gradstudies.goucher.edu/thank-you/macs)
+-[MADC](https://gradstudies.goucher.edu/thank-you/madc)
+-[MAES](https://gradstudies.goucher.edu/thank-you/maes)
+-[MAHP](https://gradstudies.goucher.edu/thank-you/mahp)
+-[MAT](https://gradstudies.goucher.edu/thank-you/mat)
+-[MED](https://gradstudies.goucher.edu/thank-you/med)
+-[MFAN](https://gradstudies.goucher.edu/thank-you/mfan)
+-[Professional Development Certificate](https://gradstudies.goucher.edu/thank-you/professional-development-certificate)
+
 
 ## Additional Info
 
-This Eleventy project uses pagination to create the different program pages. To edit program info, or add additional programs use the `programs.json` file. 
+This Eleventy project uses [pagination](https://www.11ty.dev/docs/pagination/) to create the different program pages. 
+
+Each page is using [global data](https://www.11ty.dev/docs/pagination/#paginate-a-global-or-local-data-file) provided by json files. To edit program info or add additional programs use the `programs.json` file. To edit thank you page info update the `programThanks.json` file.
+
+Program and thank you pages are created using templates. (See `thank-you-page-template.njk` and `program-page-template.njk` ). Each template uses front matter to specify how a page gets created:
+    - **data**: file name where the data is found
+    - **size**: the amount of chunks of data that gets populated per page
+    - **alias**: you can choose a keyword that will specify your data 
+    - **permalink**: you can choose a permalink with an option to slugify the string
+
+
+
+
+
 
