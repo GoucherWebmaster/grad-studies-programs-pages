@@ -1,32 +1,5 @@
 [
     {
-        "name": "M.A. in Arts Administration", 
-        "hidden": "",
-        "acronym": "maaa",
-        "image": "maaa",
-        "blurb": "The arts and cultural field is changing rapidly. Be part of leading those changes with a master's degree in arts administration. Our program is practical and professional. You will receive personal attention from our faculty of national arts leaders. With our flexible format, you can continue to work full time and immediately apply what you learn. An annual, one-week residency builds a powerful network and strengthens your connections to mentors, faculty, and peers.", 
-        "testimonial": {
-            "quote": "I received far more than an advanced degree from Goucher. I got an army, a cohort of colleagues, and a chorus of mentors whose voices still guide me 12 years later. I had the ongoing resources, support, and tools that I needed. I had a secret weapon: an M.A. in Arts Administration from Goucher.", 
-            "name": "Todd Eric Hawkins", 
-            "title": "Executive Director, Irving Arts Center", 
-            "credential": "M.A. Arts Administration, 2010"
-        },
-        "stats": [
-            {
-                "number": "2:1", 
-                "text": "student-to-faculty ratio"
-            }, 
-            {
-                "number": "2-3", 
-                "text": "years to graduate, flexible"
-            },
-            {
-                "number": "95%", 
-                "text": "employed in the arts"
-            }
-        ]
-    }, 
-    {
         "name": "M.A. Applied Policy Analysis", 
         "hidden": "true",
         "acronym": "maapa",

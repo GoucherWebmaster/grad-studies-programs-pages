@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", ready())
 
 function ready () {
-    const maaa = document.querySelector('#maaa') 
+    const maapa = document.querySelector('#maapa') 
     const select = document.getElementById('program-select')
     const programs = document.querySelectorAll('.program')
     const headings = document.querySelectorAll('.faq-question')
@@ -19,7 +19,7 @@ function ready () {
 
     select.addEventListener('change', (e) => {
         let selected = e.target.value
-        selected === "maaa" ? maaa.classList.remove('hidden') : maaa.classList.add('hidden')
+        selected === "maapa" ? maapa.classList.remove('hidden') : maapa.classList.add('hidden')
         
         programs.forEach((program) => {
             if(program.id === selected) {
@@ -40,7 +40,7 @@ function ready () {
             
             programs.forEach(program => {
                 if ( path === "") {
-                    maaa.classList.remove('hidden')
+                    maapa.classList.remove('hidden')
                 } else if (program.id === path) {
                     program.classList.remove('hidden')
                     select.value = program.id
