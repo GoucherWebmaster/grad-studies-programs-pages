@@ -55,13 +55,14 @@ Open http://localhost:8080/ to view it in the browser.
 
 This Eleventy project uses [pagination](https://www.11ty.dev/docs/pagination/) to create the different program pages. 
 
-Each page is using [global data](https://www.11ty.dev/docs/pagination/#paginate-a-global-or-local-data-file) provided by json files. To edit program info or add additional programs use the `programs.json` file. To edit thank you page info update the `programThanks.json` file.
+Each page is using [global data](https://www.11ty.dev/docs/pagination/#paginate-a-global-or-local-data-file) provided in json files. To edit program info or add additional programs use the `programs.json` file. To edit thank you page info update the `programThanks.json` file.
 
 Program and thank you pages are created using templates. (See `thank-you-page-template.njk` and `program-page-template.njk` ). Each template uses front matter to specify how a page gets created:
-    - **data**: file name where the data is found
-    - **size**: the amount of chunks of data that gets populated per page
-    - **alias**: you can choose a keyword that will specify your data 
-    - **permalink**: you can choose a permalink with an option to slugify the string
+
+    - data: file name where the data is found
+    - size: the amount of chunks of data that gets populated per page
+    - alias: you can choose a keyword that will specify your data 
+    - permalink: you can choose a permalink with an option to slugify the string
 
 
 
