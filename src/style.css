@@ -668,6 +668,10 @@ h2 button:focus svg {
 footer {
     background-color: var(--clr-grey);
     text-align: center;
+
+    .logo {
+        padding: 0 2em;
+    }
 }
 
 footer p {
