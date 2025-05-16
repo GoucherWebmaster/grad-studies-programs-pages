@@ -94,7 +94,7 @@
                 "text": "program credit hours"
             }, 
             {
-                "number": "2.5-3", 
+                "number": "2-2.5", 
                 "text": "years to graduation"
             },
             {
@@ -146,7 +146,7 @@
                 "text": "year formats available"
             }, 
             {
-                "number": "9", 
+                "number": "7", 
                 "text": "areas of specialization"
             },
             {
@@ -168,7 +168,7 @@
         },
         "stats": [
             {
-                "number": "49", 
+                "number": "42", 
                 "text": "program credit hours"
             }, 
             {
@@ -176,7 +176,7 @@
                 "text": "years to graduation"
             },
             {
-                "number": "200", 
+                "number": "300", 
                 "text": "books published by grads"
             }
         ]

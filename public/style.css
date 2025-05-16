@@ -335,12 +335,12 @@ button.default.form_button_submit:focus-visible,
 
 /* Hero Section Styles */
 .hero-bg {
-    background-image: url('assets/images/header-bg-mobile.webp');
+    background-image: url('assets/images/header-bg-mobile-2.webp');
     background-size: cover;
     max-width: 1440px;
-    padding: 2rem 0 16rem;
-    -webkit-padding-before: 2rem;
-    -webkit-padding-after: 16rem;
+    padding: 2.75rem 0 20rem;
+    -webkit-padding-before: 2.75rem;
+    -webkit-padding-after: 20rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -774,11 +774,20 @@ footer p {
     font-size: .75rem;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 31.25rem) {
+    .hero-bg {
+        background-image: url('assets/images/header-bg-tablet-1.webp');
+        background-position: 64% 0%;
+        padding: 3.75rem 0 15rem;
+        -webkit-padding-before: 3.75rem;
+        -webkit-padding-after: 15rem;
+    }
+}
+
+@media (min-width: 1010PX) {
 
     .hero-bg {
-        background-image: url('assets/images/header-bg-desktop.jpg');
-        background-position: 64% 0%;
+        background-image: url('assets/images/header-bg-desktop-1.webp');
         padding: 2rem 0;
         -webkit-padding-after: 2rem;
         -webkit-padding-before: 2rem;
