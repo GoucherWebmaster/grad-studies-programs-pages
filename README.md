@@ -5,7 +5,7 @@ A marketing website for all the graduate programs at Goucher College.
 ## This website is built using:
 
 - [Eleventy](https://www.11ty.dev/docs/)
-- [Kinsta](https://my.kinsta.com/login)
+- [Kinsta](https://my.kinsta.com/login) or [Sevalla](https://app.sevalla.com/?idCompany=3b399f0b-6957-41a9-8ab8-40e0d75dbb38)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 - JavaScript
 - HTML & CSS
