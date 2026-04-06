@@ -29,7 +29,7 @@ Open http://localhost:8080/ to view it in the browser.
 ## View main pages live:
 
 -[Homepage](https://gradstudies.goucher.edu)
--[MAAPA](https://gradstudies.goucher.edu/maapa)
+-[MAPA](https://gradstudies.goucher.edu/mapa)
 -[MACLM](https://gradstudies.goucher.edu/maclm)
 -[MADC](https://gradstudies.goucher.edu/madc)
 -[MAES](https://gradstudies.goucher.edu/maes)
@@ -40,7 +40,7 @@ Open http://localhost:8080/ to view it in the browser.
 
 ## View Thank You pages live:
 
--[MAAPA](https://gradstudies.goucher.edu/thank-you/maapa)
+-[MAPA](https://gradstudies.goucher.edu/thank-you/mapa)
 -[MACLM](https://gradstudies.goucher.edu/thank-you/maclm)
 -[MADC](https://gradstudies.goucher.edu/thank-you/madc)
 -[MAES](https://gradstudies.goucher.edu/thank-you/maes)
