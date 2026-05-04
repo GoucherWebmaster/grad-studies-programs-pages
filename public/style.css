@@ -290,7 +290,6 @@ input, button, select {
     padding: 2rem 1rem;
     border-radius: 16px;
     max-width: 500px;
-    justify-self: center;
 }
 
 .form .intro-text {
@@ -433,12 +432,13 @@ button.default.form_button_submit:focus-visible,
     align-items: center;
 }
 
-.main-column-wide .title {
-    margin: 7rem 0 5rem 0;
+.main-column-wide > .form {
+    grid-row: 1;
 }
 
-.main-column-wide .form {
-    justify-self: center;
+
+.main-column-wide .title {
+    margin: 7rem 0 5rem 0;
 }
 
 
@@ -861,6 +861,7 @@ footer p {
 
     .main-column-wide > .form {
         min-width: 500px;
+        justify-self: center;
     }  
 }
 
@@ -880,12 +881,12 @@ footer p {
     }
 
     .main-column-wide > .form {
-        grid-column: 2 / 3;
-        justify-self: end;
+        grid-column: 3 / 4;
+        justify-self: start;
     }   
 
     .main-column-wide > .title-container {
-        grid-column: 3 / 4;
+        grid-column: 2 / 3;
     }
 
     .main-column-wide .title {
@@ -894,7 +895,7 @@ footer p {
     }
 
 
-    .title-container:not(.purpose .title-container, .form + .title-container) {
+    .title-container:not(.purpose .title-container, .title-container:has(+ .form) ) {
         padding-block: 4.5rem;
         padding-inline: clamp(2rem, 3vw, 3rem);
         -webkit-padding-after: 4.5rem;
